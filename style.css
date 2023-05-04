@@ -1,0 +1,75 @@
+
+    body {
+      background-color:rgb(250, 247, 244);
+      display: flex;
+      margin: 50px 50px 50px 50px;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .header {
+        min-width: 200px;
+    }
+
+    .WDP {
+        color:cyan;
+        font-family: "Sofia", sans-serif;
+    }
+
+    h1 {
+      color:rgb(226, 230, 10);
+      padding:40px;
+      margin:20px;
+      background-color: darkseagreen;
+      font-family: 'Red Hat Display', sans-serif;
+      text-align: center;
+      border:2px solid black;
+    }
+
+    .card {
+        display:inline-flex;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 20px;
+        height: 150px;
+        width: 150px;
+        justify-content: center;
+    }
+
+    .container {
+       margin:20px;
+    }
+
+    a {
+        text-decoration:none;
+    }
+
+    .cubetext {
+        color:black;
+        font-weight: bold;
+        font-size: larger;
+        position: relative;
+        text-align: justify;
+        top:50px;
+    }
+
+    .firstprojects {
+        background-color:rgb(51, 177, 145);
+    }
+    .artprojects {
+        background-color:#e2c628
+    }
+    .cvpage {
+        background-color:rgb(31, 126, 204);
+    }
+    .randomprojects {
+        background-color:orange;
+    }
+
+    
+    .footer {
+        position:fixed;bottom:0;
+        width:100%;
+        display:block;
+    }
